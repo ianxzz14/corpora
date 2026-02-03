@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Corpora Rent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <i class="fa-solid fa-car-side"></i>
+            <span>Corpora Rent</span>
+        </a>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="index.html" class="nav-link">Daftar Mobil</a>
+            <a href="about.html" class="nav-link">Tentang Kami</a>
+            <a href="contact.html" class="nav-link active">Kontak</a>
+        </div>
+        <div class="auth-buttons">
+            <a href="login.html" class="btn btn-outline" style="padding: 10px 20px;">Sign In</a>
+            <a href="register.html" class="btn btn-primary" style="padding: 10px 20px;">Sign Up</a>
+        </div>
+    </nav>
+
+    <div class="container main-content">
+        <h2 class="section-title">Hubungi Kami</h2>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 50px;">
+
+            <!-- Contact Info -->
+            <div style="background: rgba(255,255,255,0.05); padding: 40px; border-radius: var(--radius-lg);">
+                <h3 style="margin-bottom: 30px; font-size: 1.5rem;">Informasi Kantor</h3>
+
+                <div style="margin-bottom: 25px; display: flex; gap: 15px;">
+                    <div
+                        style="width: 40px; height: 40px; background: rgba(45, 70, 185, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--color-primary);">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom: 5px;">Alamat</h4>
+                        <p style="color: var(--text-muted);">Percut Sei Tuan<br>Medan, Sumatera Utara</p>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 25px; display: flex; gap: 15px;">
+                    <div
+                        style="width: 40px; height: 40px; background: rgba(45, 70, 185, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--color-primary);">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom: 5px;">Telepon</h4>
+                        <p style="color: var(--text-muted);">+62 812 3456 7890</p>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 15px;">
+                    <div
+                        style="width: 40px; height: 40px; background: rgba(45, 70, 185, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--color-primary);">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom: 5px;">Email</h4>
+                        <p style="color: var(--text-muted);">info@corporarent.id</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div>
+                <form>
+                    <div class="form-group">
+                        <label style="display: block; margin-bottom: 10px; font-weight: 500;">Nama Lengkap</label>
+                        <input type="text" class="form-input" placeholder="Masukkan nama Anda"
+                            style="padding-left: 20px;">
+                    </div>
+                    <div class="form-group">
+                        <label style="display: block; margin-bottom: 10px; font-weight: 500;">Email</label>
+                        <input type="email" class="form-input" placeholder="email@example.com"
+                            style="padding-left: 20px;">
+                    </div>
+                    <div class="form-group">
+                        <label style="display: block; margin-bottom: 10px; font-weight: 500;">Pesan</label>
+                        <textarea class="form-input" rows="5" placeholder="Tulis pesan Anda disini..."
+                            style="padding-left: 20px; height: auto; border-radius: 16px;"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
